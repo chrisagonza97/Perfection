@@ -1,0 +1,27 @@
+.album {
+  text-align: center;
+  width: 27%;
+  max-width: 19rem;
+  font-size:20px;
+  img {
+    width: 100%;
+  }
+  padding:1rem;
+  flex-wrap: wrap;
+}
+.album:hover {
+  background-color: #414141;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+  .album {
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    margin:auto;
+    img {
+      width: 100%;
+    }
+  }
+}

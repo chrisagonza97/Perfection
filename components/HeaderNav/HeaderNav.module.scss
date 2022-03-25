@@ -1,0 +1,47 @@
+.list {
+  color: white;
+  display: flex;
+  justify-content:space-between;
+  opacity: 1;
+  li {
+    display: inline;
+    margin-left:.5rem;
+    margin-right:.5rem;
+    
+  }
+  li:hover{
+    cursor: pointer;
+  }
+}
+.nav {
+  position:absolute;
+  
+  font-family: 'Playfair Display SC', serif;
+  line-height: 1rem;
+  padding: 1rem 0px;
+  width: 100%;
+  z-index: 5;
+  h2 {
+    display: inline;
+  }
+  opacity: 1;
+}
+.logo {
+}
+.nav_items {
+}
+.left_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left:.5rem;
+}
+.right_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right:.5rem;
+}
+
+@media only screen and (max-width: 640px) {
+  
+}
+

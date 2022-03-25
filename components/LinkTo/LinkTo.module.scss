@@ -1,0 +1,37 @@
+.album{
+    margin:auto;
+    padding-top:5rem;
+}
+.header{
+    margin:auto;
+    text-align:center;
+    margin-bottom:8rem;
+    img{
+        width:20rem;
+    }
+}
+.links{
+    display:flex;
+    
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color:rgb(59, 59, 59);
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+    border-radius: 2px;
+}
+.icon_container{
+    min-height:5rem;
+}
+@media (max-width: 640px) {
+    .links{
+        
+    }
+    .header{
+        margin-bottom:2rem;
+        img{
+            width:15rem;
+        }
+    }
+}
