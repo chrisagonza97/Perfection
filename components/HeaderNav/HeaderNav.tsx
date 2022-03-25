@@ -20,6 +20,10 @@ export const HeaderNav: NextPage = (props) => {
           <Link href='/music'>
             <li>Music</li>
           </Link>
+          <Link href='/shows'>
+            <li>Shows</li>
+          </Link>
+
           <Link href='/contact'>
             <li>Contact</li>
           </Link>
