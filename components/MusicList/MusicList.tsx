@@ -11,9 +11,9 @@ export const MusicList: NextPage = (props) => {
   return (
     <main className={styles.main}>
       <div className={styles.music_container}>
-        <Album linkHref='/music/moreperfect' image='/Images/moreperfect.jpg' name ='More Perfect (2021)'/>
-        <Album linkHref='/music/nestsessions' image='/Images/nestsessions.jpg' name ='Nest Sessions (2019)'/>
-        <Album linkHref ='/music/cleangreed' image='/Images/cleangreed.jpg' name ='Clean Greed (2019)'/>
+        <Album linkHref='/music/moreperfect' image='/Images/moreperfect.jpg'  name ='More Perfect (2021)'/>
+        <Album linkHref='/music/nestsessions' image='/Images/nestsessions.jpg'  name ='Nest Sessions (2019)'/>
+        <Album linkHref ='/music/cleangreed' image='/Images/cleangreed.jpg'  name ='Clean Greed (2019)'/>
       </div>
     </main>
   );

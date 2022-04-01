@@ -1,9 +1,13 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
     <Html>
-     <Head>
+      <Head>
+        <meta
+          name='description'
+          content='Perfection&#39;s Homepage where you can find their music, upcoming shows, and how to contact them'
+        />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
@@ -17,5 +21,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

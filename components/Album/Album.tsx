@@ -11,7 +11,7 @@ export const Album: FC<AlbumProps> = ({ image, name, linkHref }) => {
   return (
     <Link href={linkHref}>
       <figure className={styles.album}>
-        <img src={image} alt={name} />
+        <img src={image} alt={'Perfection ' + name} />
         <p>{name} </p>
       </figure>
     </Link>

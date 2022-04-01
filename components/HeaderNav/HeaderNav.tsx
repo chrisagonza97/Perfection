@@ -9,7 +9,7 @@ export const HeaderNav: NextPage = (props) => {
         <span className={styles.left_container}>
           <Link href='/'>
             <li className={styles.logo}>
-              <h2>Perfection</h2>
+              <h1>Perfection</h1>
             </li>
           </Link>
         </span>

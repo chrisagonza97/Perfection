@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { RiSpotifyLine } from 'react-icons/ri';
 import { RiSoundcloudFill } from 'react-icons/ri';
-import {SiApplemusic} from 'react-icons/si'
+import { SiApplemusic } from 'react-icons/si';
 import { PageBorder } from '../PageBorder/PageBorder';
 //logos: spotify instagram
 export const MainContent: NextPage = (props) => {
@@ -14,7 +14,7 @@ export const MainContent: NextPage = (props) => {
         <img
           className={styles.main_img}
           src='/Images/patricknolan.jpg'
-          alt='Patrick Nolan'
+          alt="Perfection's Patrick Nolan"
         />
         <div className={styles.icon_container}>
           <a
@@ -55,7 +55,7 @@ export const MainContent: NextPage = (props) => {
             <img
               className={styles.moreperf_img}
               src='/Images/moreperfect.jpg'
-              alt='Patrick Nolan'
+              alt='Perfection more perfect'
             />
           </a>
         </div>

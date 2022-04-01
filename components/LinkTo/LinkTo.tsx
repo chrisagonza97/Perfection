@@ -34,7 +34,7 @@ export const LinkTo: FC<LinkToProps> = ({
   return (
     <article className={styles.album}>
       <header className={styles.header}>
-        <img src={albumImage} alt={albumName} />
+        <img src={albumImage} alt={'Perfection '+ albumName} />
         <p>{albumName}</p>
       </header>
       <div className={styles.links}>

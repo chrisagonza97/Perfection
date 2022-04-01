@@ -49,7 +49,7 @@ export const Contact: NextPage = (props) => {
       </div>
       <PageBorder />
       <address className={styles.contact_info}>
-        <h1>Contact</h1>
+        <h1>Contact Perfection:</h1>
         <p>
           <a
             href='https://www.instagram.com/patrick.veryperfect/'
