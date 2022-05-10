@@ -10,7 +10,7 @@ export const ShowsContent: FC = () => {
         showDate='Sunday, May 15th'
         showTime='8:00pm'
         showVenue='The Love Song Bar'
-        showImage='/Images/PerfectionMay15th.png'
+        showImage='/Images/PerfectionMay15th.jpg'
         showCity='Los Angeles, CA'
         showAddress='450 S. Main St, Los Angeles, CA 90013'
       />
