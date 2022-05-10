@@ -16,12 +16,12 @@ export const ShowCard: FC<ShowCardProps> = ({
   showVenue,
   showImage,
   showCity,
-  showAddress
+  showAddress,
 }) => {
   return (
-    <div className = {styles.container}>
+    <div className={styles.container}>
       <main className={styles.main}>
-        <img src={showImage} alt={showImage} />
+        <img src={showImage} alt='showImage' />
         <h2>
           {showDate}, {showTime}{' '}
         </h2>
